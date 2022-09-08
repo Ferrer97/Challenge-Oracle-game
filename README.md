@@ -1,3 +1,3 @@
 # Challenge-Oracle-game
 
-** Juego del ahorcado usando HTML,CSS y JS **
+**Juego del ahorcado usando HTML,CSS y JS**
