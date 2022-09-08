@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Ahorcados</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./Img/Vectoralura.png" alt="logo" />
+      <div class="header__div">
+        <h1 class="header__heading">Adivina la Palabra</h1>
+        <p class="header__p">Edición Desarrollo Web</p>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__section">
+        <canvas id="canvas"></canvas>
+        <div id="usedLetters"></div>
+        <div id="wordContainer"></div>
+        <button id="btn-play" class="main__btn">Iniciar Juego</button>
+        <button id="btn-add" class="main__btn main__btn-new">
+          Agregar nueva palabra
+        </button>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__p">
+        Hecho por
+        <a
+          class="footer__link"
+          href="https://github.com/Ferrer97"
+          target="_blank"
+          >Julio Ferrer</a
+        >
+      </p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
